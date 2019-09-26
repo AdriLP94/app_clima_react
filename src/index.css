@@ -56,7 +56,17 @@ input[type=text]:not(.browser-default):focus:not([readonly]) + label {
   font-size: 1.4rem;
 }
 .temperatura {
+  margin-bottom: 0.15em;
+  margin-top: 0.15em;
   font-size: 4rem!important
+}
+.temperatura-max {
+  color: #ff1a1a;
+  margin-bottom: 1em;
+}
+.temperatura-min {
+  color: #00ccff;
+  margin-bottom: 1em;
 }
 .temperatura span {
   font-size: 2rem!important;
