@@ -1,9 +1,9 @@
 import React from 'react';
 
-const Error = () => {
+const Error = ({mensaje}) => {
     return (
         <div className ="card-panel red darken-4 error col s12">
-            Ambos campos son obligatorios
+            {mensaje}
         </div>
     );
 };
