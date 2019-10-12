@@ -2,8 +2,7 @@ import React from 'react';
 import Error from './Error';
 
 const Clima = ({resultado}) => {
-
-    console.log(resultado);
+    
     const {name, cod, main} = resultado;
     if(!cod) return null;
 
